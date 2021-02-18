@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Pratodos</string>
+    <string name="app_main_name">Pratôdos</string>
+    <string name="email">Email</string>
+    <string name="password">Senha</string>
+    <string name="cardapio_header">Cardápio</string>
+    <string name="salgado_header">Salgados</string>
+    <string name="doce_header">Doces</string>
+</resources>

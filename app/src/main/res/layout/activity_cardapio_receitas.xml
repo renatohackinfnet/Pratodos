@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CardapioReceitas">
+
+    <TextView
+        android:id="@+id/cardapio_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_primary"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/paddind_regular"
+        android:text="@string/cardapio_header"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/salgado_subheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardapio_heading"
+        android:background="@android:color/darker_gray"
+        android:padding="@dimen/paddind_regular"
+        android:text="@string/salgado_header"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@+id/cardapio_heading"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <ScrollView
+        android:id="@+id/ScrollView_Salgado"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/salgado_subheading"
+        android:background="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/doce_subheading"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/salgado_subheading">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pao_de_queijo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Pão de Queijo"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/pao_de_queijo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Pão de Queijo"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/pao_de_queijo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Pão de Queijo"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/pao_de_queijo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Pão de Queijo"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/pao_de_queijo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Pão de Queijo"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/pao_de_queijo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Pão de Queijo"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/pao_de_queijo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Pão de Queijo"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+
+            <TextView
+                android:id="@+id/pao_de_queijo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Pão de Queijo"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/pao_de_queijo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Pão de Queijo"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/pao_de_queijo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Pão de Queijo"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/pao_de_queijo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Pão de Queijo"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/pao_de_queijo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Pão de Queijo"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/pao_de_queijo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Pão de Queijo"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/pao_de_queijo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Pão de Queijo"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/pao_de_queijo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Pão de Queijo"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/doce_subheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:padding="@dimen/paddind_regular"
+        android:text="@string/doce_header"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toTopOf="@+id/guideline5"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ScrollView
+        android:id="@+id/ScrollView_Doce"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doce_subheading">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bolo_de_chocolate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Bolo de Chocolate"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/bolo_de_banana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Bolo de Banana"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/bolo_de_chocolate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Bolo de Chocolate"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/bolo_de_banana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Bolo de Banana"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/bolo_de_chocolate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Bolo de Chocolate"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/bolo_de_banana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Bolo de Banana"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/bolo_de_chocolate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Bolo de Chocolate"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/bolo_de_banana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Bolo de Banana"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/bolo_de_chocolate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Bolo de Chocolate"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/bolo_de_banana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Bolo de Banana"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/bolo_de_chocolate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Bolo de Chocolate"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/bolo_de_banana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Bolo de Banana"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/bolo_de_chocolate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Bolo de Chocolate"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/bolo_de_banana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Bolo de Banana"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/bolo_de_chocolate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Bolo de Chocolate"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/bolo_de_banana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/paddind_regular"
+                android:text="Bolo de Banana"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="390dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
