@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name="com.example.Pratodos.CardapioReceitas"></activity>
-        <activity android:name="com.example.Pratodos.MainActivity">
+        <activity android:name=".PaoDeQueijo"></activity>
+        <activity android:name=".BoloDeChocolate" />
+        <activity android:name=".BoloDeBanana" />
+        <activity android:name=".CardapioReceitas" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

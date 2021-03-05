@@ -6,4 +6,44 @@
     <string name="cardapio_header">Cardápio</string>
     <string name="salgado_header">Salgados</string>
     <string name="doce_header">Doces</string>
+    <string name="title_activity_paodequeijo">paodequeijo</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="_1_x_cara_de_leite_2_meia_x_cara_de_leo_3_2_ovos_4_meia_colher_rasa_de_sal">1 - xícara de leite 2- Meia xícara de óleo 3- 2 Ovos 4- Meia colher rasa de sal</string>
+    <string name="voltar">Voltar</string>
+    <string name="p_o_de_queijo">Pão de queijo</string>
+    <string name="_1_uma_x_cara_de_leite">1- Uma xícara de leite</string>
+    <string name="_3_meia_x_cara_rasa_de_sal">3- Meia xícara rasa de sal</string>
+    <string name="_4_500g_de_polvilho_doce">4- 500g de polvilho doce</string>
+    <string name="_5_dois_ovos">5- Dois ovos</string>
+    <string name="_6_uma_x_cara_e_meia_de_queijo_ralado">6- Uma xícara e meia de queijo ralado</string>
+    <string name="_2_meia_colher_de_leo">2- Meia colher de óleo</string>
+    <string name="_7_mexa_bem_os_ingredientes_e_fa_a_pequenas_bolas_e_coloque_no_forno_em_200_graus_por_20_min">7- Mexa bem os ingredientes e faça pequenas bolas e coloque no forno em 200 graus por 20 min</string>
+    <string name="title_activity_pao_de_queijo">PaoDeQueijo</string>
+    <string name="bolo_de_chocolate">Bolo de Chocolate</string>
+    <string name="back">Voltar</string>
+    <string name="_1_quatro_ovos">1- Quatro Ovos</string>
+    <string name="_2_quatro_colheres_de_chocolate_em_p">2- Quatro colheres de chocolate em pó</string>
+    <string name="_3_duas_colheres_de_manteiga">3- Duas colheres de manteiga</string>
+    <string name="_5_tr_s_x_cara_de_a_car">5- Três xícara de açúcar</string>
+    <string name="_7_uma_x_cara_de_leite">7- Uma xícara de leite</string>
+    <string name="_6_duas_colheres_de_fermento">6- Duas colheres de fermento</string>
+    <string name="_4_tr_s_x_caras_de_farinha_de_trigo">4- Três xícaras de farinha de trigo</string>
+    <string name="bolo_de_banana">Bolo de Banana</string>
+    <string name="goback">Voltar</string>
+    <string name="_1_tr_s_ovos">1- Três ovos</string>
+    <string name="_2_duas_x_caras_de_a_car">2- Duas xícaras de açúcar</string>
+    <string name="_3_uma_x_cara_de_leite">3- Uma xícara de leite</string>
+    <string name="_4_meia_x_cara_de_leo">4- Meia xícara de óleo</string>
+    <string name="_5_duas_x_carasde_farinha_de_trigo">5- Duas xícarasde farinha de trigo</string>
+    <string name="_6_uma_colher_de_fermento">6- Uma colher de fermento</string>
+    <string name="_7_sete_bananas">7- Sete bananas</string>
+    <string name="_8_mexa_bem_e_bote_em_uma_vasilha_com_manteiga_e_fermento_depois_coloque_ao_forno_em_uma_temperatura_de_180_graus_por_30_minutos">8- Mexa bem e bote em uma vasilha com manteiga e fermento. Depois coloque ao forno em uma temperatura de 180 graus por 30 minutos</string>
+    <string name="_8_mexa_bem_e_bote_em_uma_vasilha_com_manteiga_e_fermento_depois_coloque_ao_forno_em_uma_temperatura_de_180_graus_por_40_minutos">8- Mexa bem e bote em uma vasilha com manteiga e fermento, depois coloque ao forno em uma temperatura de 180 graus por 40 minutos</string>
 </resources>
