@@ -11,7 +11,7 @@ class BoloDeBanana : AppCompatActivity() {
         setContentView(R.layout.activity_bolo_de_banana)
 
         button.setOnClickListener {
-            abrirCardapioReceitas()
+            finish()
         }
     }
 

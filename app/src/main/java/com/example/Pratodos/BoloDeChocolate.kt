@@ -12,14 +12,8 @@ class BoloDeChocolate : AppCompatActivity() {
         setContentView(R.layout.activity_bolo_de_chocolate)
 
         go_voltar2_button.setOnClickListener {
-            abrirCardapioReceitas()
+            finish()
         }
     }
 
-    fun abrirCardapioReceitas() {
-        val intent = Intent(
-            this, CardapioReceitas::class.java
-        )
-        startActivity(intent)
-    }
 }
